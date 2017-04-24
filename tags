@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+QQBot	send.py	/^from qqbot import QQBot$/;"	kind:namespace	line:3
+TrainInfo	TrainSpider.py	/^TrainInfo = namedtuple('TrainInfo',['code','yz','zy','ze','buy','sTime','aTime','last'])$/;"	kind:variable	line:8
+TrainSpider	TrainSpider.py	/^class TrainSpider(object):$/;"	kind:class	line:10
+TrainSpider	send.py	/^from TrainSpider import TrainSpider$/;"	kind:namespace	line:4
+TrainSpider.py	TrainSpider.py	1;"	kind:file	line:1
+check	TrainSpider.py	/^    def check(self,info):$/;"	kind:member	line:57
+desired	TrainSpider.py	/^    desired = ['D3274','D2232','D3264','K1268']$/;"	kind:variable	line:20
+doQuery	TrainSpider.py	/^    def doQuery(self,date,from_station,to_station):   $/;"	kind:member	line:23
+headers	TrainSpider.py	/^    headers = {$/;"	kind:variable	line:13
+interVal	send.py	/^    interVal = 30$/;"	kind:variable	line:13
+json	TrainSpider.py	/^import json$/;"	kind:namespace	line:4
+myqqbot	send.py	/^    myqqbot = QQBot(qq='2389111521')$/;"	kind:variable	line:9
+namedtuple	TrainSpider.py	/^from collections import namedtuple$/;"	kind:namespace	line:6
+parse	TrainSpider.py	/^    def parse(self,num):$/;"	kind:member	line:46
+pprint	TrainSpider.py	/^from pprint import pprint$/;"	kind:namespace	line:5
+query	TrainSpider.py	/^    def query(self,date,from_station,to_station):$/;"	kind:member	line:64
+r	TrainSpider.py	/^    r = t.query('2017-02-26','庐山','武汉')$/;"	kind:variable	line:90
+requests	TrainSpider.py	/^import requests$/;"	kind:namespace	line:3
+ret	send.py	/^        ret = spider.query('2017-02-26','庐山','武汉')$/;"	kind:variable	line:15
+send.py	send.py	1;"	kind:file	line:1
+spider	send.py	/^    spider = TrainSpider()$/;"	kind:variable	line:12
+stationMap	TrainSpider.py	/^    stationMap = {'庐山':'LSG','武汉':'WHN'}$/;"	kind:variable	line:11
+t	TrainSpider.py	/^    t = TrainSpider()             $/;"	kind:variable	line:89
+time	send.py	/^import time$/;"	kind:namespace	line:5
